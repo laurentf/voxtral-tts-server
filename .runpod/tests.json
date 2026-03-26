@@ -1,0 +1,52 @@
+{
+  "tests": [
+    {
+      "name": "preset_voice_french",
+      "input": {
+        "text": "Bonjour et bienvenue sur la radio!",
+        "voice": "fr_marie_happy",
+        "language": "fr",
+        "response_format": "wav"
+      },
+      "timeout": 120000
+    },
+    {
+      "name": "preset_voice_english",
+      "input": {
+        "text": "Welcome to the show, folks!",
+        "voice": "neutral_male",
+        "language": "en",
+        "response_format": "wav"
+      },
+      "timeout": 120000
+    },
+    {
+      "name": "custom_speed",
+      "input": {
+        "text": "This is spoken at a slower pace for clarity.",
+        "voice": "neutral_male",
+        "speed": 0.8,
+        "response_format": "wav"
+      },
+      "timeout": 120000
+    },
+    {
+      "name": "missing_text_error",
+      "input": {},
+      "timeout": 30000
+    }
+  ],
+  "config": {
+    "gpuTypeId": "NVIDIA GeForce RTX 4090",
+    "gpuCount": 1,
+    "allowedCudaVersions": [
+      "12.7",
+      "12.6",
+      "12.5",
+      "12.4",
+      "12.3",
+      "12.2",
+      "12.1"
+    ]
+  }
+}

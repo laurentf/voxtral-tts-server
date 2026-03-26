@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="12" fill="#0f0f1a"/>
+
+  <!-- Pixel art V -->
+  <!-- Left leg -->
+  <rect x="18" y="20" width="8" height="8" fill="#06b6d4"/>
+  <rect x="22" y="28" width="8" height="8" fill="#06b6d4"/>
+  <rect x="26" y="36" width="8" height="8" fill="#22d3ee"/>
+  <rect x="30" y="44" width="8" height="8" fill="#22d3ee"/>
+  <rect x="34" y="52" width="8" height="8" fill="#67e8f9"/>
+  <rect x="38" y="60" width="8" height="8" fill="#a5f3fc"/>
+  <rect x="42" y="68" width="8" height="8" fill="#ec4899"/>
+
+  <!-- Right leg -->
+  <rect x="74" y="20" width="8" height="8" fill="#ec4899"/>
+  <rect x="70" y="28" width="8" height="8" fill="#ec4899"/>
+  <rect x="66" y="36" width="8" height="8" fill="#f472b6"/>
+  <rect x="62" y="44" width="8" height="8" fill="#f472b6"/>
+  <rect x="58" y="52" width="8" height="8" fill="#f9a8d4"/>
+  <rect x="54" y="60" width="8" height="8" fill="#fbcfe8"/>
+  <rect x="50" y="68" width="8" height="8" fill="#ec4899"/>
+
+  <!-- Center glow pixel -->
+  <rect x="46" y="68" width="4" height="8" fill="#06b6d4"/>
+
+  <!-- Sound waves (right side, small pixels) -->
+  <rect x="86" y="28" width="4" height="4" fill="#06b6d4" opacity="0.4"/>
+  <rect x="86" y="36" width="4" height="4" fill="#ec4899" opacity="0.6"/>
+  <rect x="86" y="44" width="4" height="4" fill="#06b6d4" opacity="0.4"/>
+
+  <rect x="90" y="32" width="4" height="4" fill="#ec4899" opacity="0.3"/>
+  <rect x="90" y="40" width="4" height="4" fill="#06b6d4" opacity="0.3"/>
+
+  <!-- TTS label pixel style -->
+  <rect x="28" y="84" width="4" height="4" fill="#06b6d4" opacity="0.8"/>
+  <rect x="32" y="84" width="4" height="4" fill="#22d3ee" opacity="0.6"/>
+  <rect x="40" y="84" width="4" height="4" fill="#f472b6" opacity="0.8"/>
+  <rect x="44" y="84" width="4" height="4" fill="#ec4899" opacity="0.6"/>
+  <rect x="52" y="84" width="4" height="4" fill="#06b6d4" opacity="0.8"/>
+  <rect x="56" y="84" width="4" height="4" fill="#22d3ee" opacity="0.6"/>
+  <rect x="64" y="84" width="4" height="4" fill="#f472b6" opacity="0.8"/>
+  <rect x="68" y="84" width="4" height="4" fill="#ec4899" opacity="0.6"/>
+</svg>

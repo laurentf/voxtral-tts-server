@@ -1,0 +1,7 @@
+{
+  "input": {
+    "text": "Bonjour et bienvenue sur la radio!",
+    "voice": "neutral_male",
+    "response_format": "wav"
+  }
+}

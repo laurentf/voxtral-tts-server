@@ -1,0 +1,22 @@
+{
+  "title": "Voxtral TTS",
+  "description": "Text-to-speech with zero-shot voice cloning via Mistral's Voxtral 4B and vLLM-omni. 9 languages, 20 preset voices, wav/mp3/flac output.",
+  "iconUrl": "https://raw.githubusercontent.com/laurentf/voxtral-tts-server/main/public/icon.svg",
+  "type": "serverless",
+  "category": "audio",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20,
+    "volumeInGb": 30,
+    "gpuIds": "AMPERE_48,ADA_24,AMPERE_24",
+    "gpuCount": 1,
+    "allowedCudaVersions": [
+      "12.9"
+    ],
+    "env": [
+      { "key": "VOXTRAL_MODEL", "value": "mistralai/Voxtral-4B-TTS-2603" },
+      { "key": "VOXTRAL_QUANTIZATION", "value": "" },
+      { "key": "VOXTRAL_MAX_MODEL_LEN", "value": "8192" }
+    ]
+  }
+}
